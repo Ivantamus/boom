@@ -1,0 +1,25 @@
+import random
+
+# Generate a list of random numbers
+numbers = [random.randint(1, 100) for _ in range(10)]
+
+# Print the list of random numbers
+print("List of random numbers:")
+for number in numbers:
+    print(number)
+
+# Calculate the average value
+average = sum(numbers) / len(numbers)
+print("Average value:", average)
+
+# Check if the number 50 is in the list
+if 50 in numbers:
+    print("Number 50 found in the list")
+else:
+    print("Number 50 not found in the list")
+
+# Sort the list in ascending order
+numbers.sort()
+print("List of numbers after sorting:")
+for number in numbers:
+    print(number)
