@@ -3,7 +3,7 @@ import random
 # Generate a list of random numbers
 numbers = [random.randint(1, 100) for _ in range(10)]
 
-# Print the list of random numbers
+# Print the list of random numbers.
 print("List of random numbers:")
 for number in numbers:
     print(number)
