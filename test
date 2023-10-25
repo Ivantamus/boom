@@ -1,6 +1,6 @@
 import random
 
-# Generate a list of random numbers
+# Generate a list of random numbers.
 numbers = [random.randint(1, 100) for _ in range(10)]
 
 # Print the list of random numbers.
